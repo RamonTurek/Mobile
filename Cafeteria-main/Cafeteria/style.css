@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Candy';
+    src: url(Fonte/EmilysCandy-Regular.ttf);
+}
+
+*{
+font-family: 'Candy';
+
+}
+
+body{
+    background-size: 250px;
+    background-color: black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4HAnDzcebGxtyUnEOm3Yq3tlUHYbCcrLfig&usqp=CAU);
+    }
+    
+    header{
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0px;
+    background-color: rgb(211, 98, 132);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    
+    }
+
+    header nav{
+    margin-right: 3%;
+
+    }
+
+    header nav a{
+        font-size: 200px;
+
+    }
+
+    header h1{
+color: rgb(255, 255, 255);
+padding-left: 10px;
+    }
+
+.navegacao{
+    font-size: 20px;
+    margin-left: 20px;
+    
+    }
+    
+    .navegacao a{
+    position: relative;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    
+    }
+    
+    .navegacao a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s;
+    
+    }
+    
+    .navegacao a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+    }
+    
+    .navegacao .btnlogin-popup{
+    margin-left: 25px;
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 40px;
+    transition: .5s;
+    
+    }
+    
+    .navegacao .btnlogin-popup:hover{
+    background: white;
+    color: black;
+    box-shadow: 1px 1px 10px black;
+    
+    }
+    
+    .imagens{
+display: block;
+
+    }
+
+    .imagens img{
+padding: 10px 20%;
+border-radius: 5px;
+
+    }
+
+    .imagens ul{
+color: rgb(61, 21, 3);
+font-size: 30px;
+position: absolute;
+margin-left: 48%;
+margin-top: -10%;
+
+    }
+
+    .imagens img .paoofqueijo{
+        margin-top: 10px;
+
+
+    }

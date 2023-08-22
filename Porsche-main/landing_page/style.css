@@ -1,0 +1,61 @@
+@font-face {
+    font-family: fonte;
+    src: url(fonte/dodger3cond.ttf);
+}
+@font-face {
+    font-family: fonte2;
+    src: url(fonte/Lato-ThinItalic.ttf);
+}
+
+header{
+text-align: center;
+align-items: center;
+color: rgb(255, 255, 255);
+}
+
+header h1{
+font-size: 67px;
+}
+
+body{
+background-image: url(img/porsche-911-turbo-s-2021-1280-01.webp);
+background-repeat: no-repeat;
+background-position: fixed;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+.logo{
+position: fixed;
+margin-top: -110px;
+padding: 3px;
+background-color: rgb(0, 0, 0);
+border-radius: 10px;
+box-shadow: 1px 1px 10px black;
+}
+
+.info{
+font-size: 15px;
+color: white;
+margin-top: 44%;
+
+}
+
+.info1{
+background-color: black;
+padding: 20px;
+color: rgb(238, 238, 238);
+box-shadow: -10px -10px 30px black;
+border: 1px solid white;
+border-radius: 10px;
+}
+
+.font1{
+    font-family: 'fonte';
+}
+
+.font2{
+    font-family: 'fonte2';
+font-size: 15px;
+}

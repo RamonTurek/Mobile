@@ -1,0 +1,65 @@
+*{
+padding: 0;
+margin: 0;
+vertical-align: baseline;
+list-style: none;
+border: 0;
+
+}
+
+header{
+font-size: 50px;
+background-color: rgb(45, 103, 189);
+padding: 20px;
+
+}
+
+.formulario{
+margin: 20px 1px;
+border: 1px solid black;
+padding: 10px;
+
+
+}
+
+.formulario h1{
+font-size: 50px;
+
+}
+
+.formulario h3{
+font-size: 30px;
+margin: 5px 0px;
+}
+
+.formulario h5{
+margin-top: 5px;
+font-size: 20px;
+
+}
+
+.formulario input{
+    padding: 5px 0px;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-color: black;
+    width: 1500px;
+    margin-top: 5px;
+    
+    }
+
+.formulario button{
+padding: 10px 70px;
+border-radius: 10px;
+font-size: 20px;
+background-color: rgb(45, 103, 189);
+color: white;
+margin: 10px 30px;
+
+}
+
+.content th{
+padding-right: 100px;
+font-size: 20px;
+
+}
